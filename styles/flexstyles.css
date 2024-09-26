@@ -1,0 +1,109 @@
+body {
+    background-color: purple;
+    color: white;
+}
+.navigation {
+    display: flex;
+    width: 130px;
+    border-style: solid;
+}
+
+.container {
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.item {
+    background-color: lightblue;
+    border-style: solid;
+    margin: 25px;
+    padding-top: 60px;
+    width: 200px;
+    height: 100px;
+    color: black;
+    text-align: center;
+
+}
+
+
+
+.home:hover {
+    background-color: cyan;
+    color: black;
+    transition: 200ms;
+}
+
+.share:hover {
+    background-color: cyan;
+    color: black;
+    transition: 200ms;
+}
+
+.contact:hover {
+    background-color: cyan;
+    color: black;
+    transition: 200ms;
+}
+
+.item:nth-child(1) {
+    background-color: green;
+}
+
+.item:nth-child(3) {
+    background-color: green;
+}
+
+.item:nth-child(5) {
+    background-color: green;
+}
+
+.flex2 {
+    background-color: lightgreen;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.item2 {
+    background-color: lightblue;
+    border-style: solid;
+    margin: 25px;
+    padding-top: 150px;
+    width: 200px;
+    height: 200px;
+    color: black;
+    text-align: center;
+}
+.flex2:only-child {
+    background-color: black;
+}
+.item:hover {
+    background-color: black;
+    color: white;
+    transition: 200ms;
+}
+
+.item2:hover {
+    background-color: black;
+    color: white;
+    transition: 200ms;
+}
+
+/*This highlights the text box showing that you have selected it*/
+.focus:focus{
+    color: white;
+    background-color: black
+}
+/*Makes the color of the first child red*/
+div:first-child{
+    background-color: red;
+}
+#number {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
